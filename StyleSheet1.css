@@ -1,0 +1,98 @@
+﻿body
+{
+    background-color:dimgrey
+}
+div.firstbox{
+  display:flex;
+  flex-direction:row;
+}
+div.secondbox {
+    display: flex;
+    flex-direction: row;
+}
+div.thirdbox{
+    display:flex;
+    flex-direction:row
+}
+div.storystuff{
+    background-color:black;
+    color:green;
+    font-size:30px;
+    border:4px solid green;
+ 
+
+}
+button {
+    background-color: black;
+    border: 4px double white;
+    font-size:20px;
+    height:100px;
+    width:110px;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.purple {
+    color:purple;
+}
+.cyan {
+    color:cyan
+}
+.collumn {
+    display:flex;
+    flex-direction:column;
+}
+.box{
+    height:100px;
+    width:660px;
+}
+div.top{
+   position:center;
+   display:flex;
+   flex-direction:column;
+   text-align:center;
+}
+div.h2box{
+    height:50px;
+    width:660px;
+}
+.smollbox {
+    height: 100px;
+    width: 550px;
+    display:flex;
+    flex-direction:row;
+}
+div.h2box2 {
+    height: 50px;
+    width: 550px;
+}
+.boxborder1 {
+    border: 6px solid red;
+}
+.boxborder2 {
+    border: 6px solid blue;
+}
+@keyframes title{
+    0% {color:white;}
+    10%{color:red;}
+    20% {color: orangered;}
+    30% {color: mediumvioletred;}
+    40% {color: mediumpurple;}
+    50% {color: rebeccapurple;}
+    60% {color: mediumpurple;}
+    70% {color: deeppink;}
+    80% {color: hotpink;}
+    90% {color: lightpink;}
+    100% {color:white;}
+}
+.anime{
+    animation-name:title;
+    animation-iteration-count:infinite;
+    animation-duration:4s;
+}
+.boxborder3{
+    border-color:green;
+}
